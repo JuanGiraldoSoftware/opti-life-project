@@ -6,6 +6,3 @@ A web application that tracks daily activities and leverages AI/ML APIs to provi
 - backend/ — FastAPI + ML
 - frontend/ — Next.js client
 - docs/ — Documentation
-
-## Local
-See docs/local-setup.md

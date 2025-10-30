@@ -1,6 +1,6 @@
 # Project structure
 
-productivity-ai-app/
+opti-life-project/
 ├─ backend/           # FastAPI + ML
 ├─ frontend/          # Next.js
 ├─ docs/              # Documentation
