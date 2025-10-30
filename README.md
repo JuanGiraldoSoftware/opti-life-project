@@ -9,7 +9,7 @@ A web application that tracks daily activities and leverages AI/ML APIs to provi
 
 ## Commit template
 
-OPL-C#<"number"> / <"Feature name / stage name">
+OPL-C00<"number"> | <"Feature name / stage name">
 
 ## Local
 See docs/local-setup.md 
