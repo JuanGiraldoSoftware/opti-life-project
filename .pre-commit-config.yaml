@@ -8,6 +8,8 @@
         language: system
         types: [python]
 
+  - repo: local
+    hooks:
       - id: check-commit-message
         name: Validate Conventional Commit message (OptiLife format)
         entry: python .hooks/check_commit_message.py
