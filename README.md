@@ -7,6 +7,10 @@ A web application that tracks daily activities and leverages AI/ML APIs to provi
 - frontend/ — Next.js client
 - docs/ — Documentation
 
+## Commit template
+
+OPL-C#<"number"> / <"Feature name / stage name">
+
 ## Local
 See docs/local-setup.md 
 
