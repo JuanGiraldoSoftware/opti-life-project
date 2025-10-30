@@ -5,4 +5,4 @@ A web application that tracks daily activities and leverages AI/ML APIs to provi
 ## Project structure
 - backend/ — FastAPI + ML
 - frontend/ — Next.js client
-- docs/ — Documentation
+- docs/ — Documentation.
