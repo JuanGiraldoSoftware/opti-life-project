@@ -1,4 +1,19 @@
 ﻿repos:
+  - repo: local
+    hooks:
+      - id: check-function-spacing
+        name: Check function spacing style
+        # call Python explicitly so no executable bit is required
+        entry: python .hooks/check_function_spacing.py
+        language: system
+        types: [python]
+
+      - id: check-commit-message
+        name: Validate Conventional Commit message (OptiLife format)
+        entry: python .hooks/check_commit_message.py
+        language: system
+        stages: [commit-msg]
+
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
@@ -9,7 +24,9 @@
     rev: 25.9.0
     hooks:
       - id: black
+        name: Check identation and spacing (black)
   - repo: https://github.com/pycqa/isort
     rev: 7.0.0
     hooks:
       - id: isort
+        name: Check imports (isort)
