@@ -1,11 +1,14 @@
+import io
 import os
 import re
 import sys
 from pathlib import Path
 
 os.system("")
+sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding="utf-8")
 
 COMMIT_PATTERN = re.compile(r"^OPL-C00\d+\s\|\s(feat|fix|docs|chore|test):\s.+")
+print("✅ Running commit message hook...")
 
 
 def main():
