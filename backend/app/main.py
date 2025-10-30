@@ -11,4 +11,5 @@ def read_root():
 @app.get("/test_endpoint_1")
 def test_endpoint_1():
     print("something goes wrong.")
+    print("testing")
     return {"content": "value"}
