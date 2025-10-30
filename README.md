@@ -9,8 +9,9 @@ A web application that tracks daily activities and leverages AI/ML APIs to provi
 
 ## Commit template
 
-OPL-C00<"number"> | <"Feature name / stage name">
+Commit tags: Conventional Commits (feat:, fix:, docs:, chore:, test:)
+
+OPL-C00<"number"> | <"Commit-tag"> <"Feature name / stage name">
 
 ## Local
-See docs/local-setup.md 
-
+See docs/local-setup.md
